@@ -1,0 +1,52 @@
+html .tooltip-reset *{vertical-align:baseline;font-family:inherit;font-weight:inherit;font-style:inherit;font-size:100%;outline:0;padding:0;margin:0;border:0;color:#ececec;text-decoration:none;}
+.ui-helper-clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.ui-helper-clearfix{display:inline-block;}
+/* required comment for clearfix to work in Opera \*/
+* html .ui-helper-clearfix{height:1%;}
+.ui-helper-clearfix{display:block;}
+.inline-flow{display:-moz-inline-stack;display:inline-block;text-align:left;vertical-align:top;zoom:1;*display:inline;_height:auto;}
+.tooltip-rounded{border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;}
+.tooltip{/* The box */
+width:300px;border:1px solid #25a2c3;box-shadow:0px 0px 5px #25a2c3;-webkit-box-shadow:0px 0px 5px #25a2c3;-moz-box-shadow:0px 0px 5px #25a2c3;/* Global Tooltip CSS */
+font-size:12px;font-family:verdana;color:#bbecfc;background-color:rgba(0,0,0,0.9);text-align:left;}
+.tooltip h2,
+.tooltip h3,
+.tooltip h3 a,
+.tooltip h4{color:#FFD400;}
+.tooltip a{color:#42F2FF;}
+.tooltip p{margin:3px 0;line-height:1.2em;}
+.tooltip ul{list-style-type:square;list-style-position:inside;}
+.tooltip ul li{padding:0 5px;}
+.tooltip .tooltip-cloud{}
+.tooltip .tooltip-cloud h4.label{line-height:26px;vertical-align:top;margin:1px;padding:0 5px;font-size:10px;border-bottom-left-radius:3px;border-top-left-radius:3px;-moz-border-radius-bottomleft:3px;-moz-border-radius-topleft:3px;}
+.tooltip .tooltip-cloud h4.label:last-child{border-bottom-left-radius:0;border-top-left-radius:0;-moz-border-radius-bottomleft:0;-moz-border-radius-topleft:0;border-bottom-right-radius:3px;border-top-right-radius:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-topright:3px;}
+.tooltip .tooltip-cloud .icon-cloud{margin:1px;}
+.tooltip .tooltip-cloud .icon-cloud img{border:1px solid #FFD400;height:24px;width:24px;}
+.tooltip .tooltip-inner{padding:10px;box-shadow:inset 0px 0px 10px #25a2c3;-webkit-box-shadow:inset 0px 0px 10px #25a2c3;-moz-box-shadow:inset 0px 0px 10px #25a2c3;position:relative;}
+.tooltip .tooltip-icon-box{float:right;margin:0 0 8px 8px;height:80px;width:80px;}
+.tooltip .tooltip-icon{background:url('/images/classes/icon_trooper.png') center center;background-size:100% 100%;box-shadow:inset 0px 0px 15px #25a2c3;-webkit-box-shadow:inset 0px 0px 15px #25a2c3;-moz-box-shadow:inset 0px 0px 15px #25a2c3;position:absolute;border:1px solid #2dccff;height:80px;width:80px;}
+.tooltip .description p{margin:5px 0;}
+.tooltip-icon-maxed{border:1px solid #e2ab20;}
+.tooltip-counter{background:url('/images/talent-counter.png');position:absolute;bottom:0px;left:9px;width:33px;}
+.tooltip-counter-maxed{background:url('/images/talent-counter-maxed.png');}
+.tooltip-counter-maxed span.spent{padding:0 12px;color:#000;font-weight:bold;text-shadow:0px 0px 2px #fff;}
+.tooltip-counter span{font-family:arial;text-shadow:0px 0px 2px #2dccff;font-size:12px;padding:0 3px 0 6px;line-height:16px;}
+.tooltip-counter span.avail{text-shadow:0px 0px 2px #000;color:#141414;}
+.tooltip h3{font-weight:normal;font-size:16px;color:#ebc063;margin-bottom:5px;}
+.tooltip .stats p{font-size:10px;margin:0 0 1px;}
+.tooltip .stats .label{color:#ebc063;}
+.tooltip div.description{margin:5px 0;line-height:1.25em;}
+.addPoint{color:#00f600;margin-bottom:0;}
+.currentEffect span.change{text-decoration:underline;color:#ebc063;}
+.nextEffect span.change{text-decoration:underline;color:#5EC470;}
+.tooltip strong{color:#FFD400;}
+.transparent-bg-blue{/* Fallback for web browsers that doesn't support RGBa */
+background:rgb(21,42,67,1);/* RGBa with 0.6 opacity */
+background:rgba(21,42,67,0.6);/* For IE 5.5 - 7*/
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99152a43,endColorstr=#99152a43);/* For IE 8*/
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99152a43,endColorstr=#99152a43)";}
+.transparent-bg-red{/* Fallback for web browsers that doesn't support RGBa */
+background:rgb(102,26,26);/* RGBa with 0.6 opacity */
+background:rgba(102,26,26,0.6);/* For IE 5.5 - 7*/
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99661A1A,endColorstr=#99661A1A);/* For IE 8*/
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99661A1A,endColorstr=#99661A1A)";}
